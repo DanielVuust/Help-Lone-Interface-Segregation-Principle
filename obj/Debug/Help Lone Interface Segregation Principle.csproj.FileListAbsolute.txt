@@ -1,0 +1,2 @@
+C:\Users\davu\source\repos\Skole\H2\Solid\Help Lone Interface Segregation Principle\Help Lone Interface Segregation Principle\obj\Debug\Help Lone Interface Segregation Principle.csproj.AssemblyReference.cache
+C:\Users\davu\source\repos\Skole\H2\Solid\Help Lone Interface Segregation Principle\Help Lone Interface Segregation Principle\obj\Debug\Help Lone Interface Segregation Principle.csproj.CoreCompileInputs.cache
