@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Help_Lone_Interface_Segregation_Principle.Interfaces
 {
-    interface ISlashingCharacter : ICharacter
+    public interface IMeleeFighter : ICharacter, IFightingCharacter
     {
+        void Bash();
+        void Cleave();
         void Slash();
     }
 }

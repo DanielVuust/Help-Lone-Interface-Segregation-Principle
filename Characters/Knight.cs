@@ -5,10 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Help_Lone_Interface_Segregation_Principle.Interfaces;
+using Help_Lone_Interface_Segregation_Principle.Interfaces.CharacterInterfaces;
 
 namespace Help_Lone_Interface_Segregation_Principle.Characters
 {
-    public class Knight : IBashingCharacter, ICleaveCharacter, IFightingCharacter, IHealingCharacter, IShieldCharacter, IShieldGlareingCharacter, ISlashingCharacter
+    public class Knight : IKnight
     {
         public void Bash()
         {

@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace Help_Lone_Interface_Segregation_Principle.Interfaces
 {
-    interface ICleaveCharacter : ICharacter
+    public interface IWizard : IHealingCharacter, ITeleportingCharacter, IThrowingSpellsCharacter
     {
-        void Cleave();
-
     }
 }

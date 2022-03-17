@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Help_Lone_Interface_Segregation_Principle.Interfaces
 {
-    interface IShieldCharacter : ICharacter
+    public interface IShieldCharacter : ICharacter, IFightingCharacter
     {
         void RaiseShield();
+        void ShieldGlare();
     }
 }

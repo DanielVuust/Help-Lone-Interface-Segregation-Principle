@@ -47,17 +47,17 @@
     <Compile Include="Characters\Knight.cs" />
     <Compile Include="Characters\Witch.cs" />
     <Compile Include="Characters\Wizard.cs" />
-    <Compile Include="Interfaces\CharacterTypeInterfaces\IBashingCharacter.cs" />
+    <Compile Include="Interfaces\CharacterInterfaces\IBabarian.cs" />
+    <Compile Include="Interfaces\CharacterInterfaces\IKnight.cs" />
+    <Compile Include="Interfaces\CharacterInterfaces\IWitch.cs" />
+    <Compile Include="Interfaces\CharacterTypeInterfaces\IMeleeFighter.cs" />
     <Compile Include="Interfaces\ICharacter.cs" />
-    <Compile Include="Interfaces\CharacterTypeInterfaces\ICleaveCharacter.cs" />
-    <Compile Include="Interfaces\CharacterTypeInterfaces\IFightingCharacter.cs" />
+    <Compile Include="Interfaces\IFightingCharacter.cs" />
     <Compile Include="Interfaces\CharacterTypeInterfaces\IHealingCharacter.cs" />
     <Compile Include="Interfaces\CharacterTypeInterfaces\IShieldCharacter.cs" />
-    <Compile Include="Interfaces\CharacterTypeInterfaces\IShieldGlareingCharacter.cs" />
-    <Compile Include="Interfaces\CharacterTypeInterfaces\ISlashingCharacter.cs" />
     <Compile Include="Interfaces\CharacterTypeInterfaces\ITeleportingCharacter.cs" />
-    <Compile Include="Interfaces\CharacterTypeInterfaces\IThrowFrostNovaCharacter.cs" />
-    <Compile Include="Interfaces\CharacterTypeInterfaces\IThrowMagicMisileCharacter.cs" />
+    <Compile Include="Interfaces\CharacterTypeInterfaces\IThrowingSpellsCharacter.cs" />
+    <Compile Include="Interfaces\CharacterInterfaces\IWizard.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Help_Lone_Interface_Segregation_Principle.Interfaces
 {
-    interface IFightingCharacter : ICharacter
+    public interface IFightingCharacter
     {
         void Fight();
     }

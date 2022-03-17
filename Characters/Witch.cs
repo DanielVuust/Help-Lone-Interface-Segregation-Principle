@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Help_Lone_Interface_Segregation_Principle.Interfaces;
+using Help_Lone_Interface_Segregation_Principle.Interfaces.CharacterInterfaces;
 
 namespace Help_Lone_Interface_Segregation_Principle.Characters
 {
-    public class Witch : IFightingCharacter, IHealingCharacter,IShieldCharacter, IShieldGlareingCharacter, ITeleportingCharacter
+    public class Witch : IWitch
     {
         public void Die()
         {
